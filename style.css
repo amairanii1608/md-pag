@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-image: linear-gradient(to right top, #255db1, #008dda, #00b6c7, #00d782, #a8eb12);
+    width: 100%;
+    border-radius: 25px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 60px;
+    color: black;
+}
+
+img header{
+    width: 180px;
+    border-radius: 50%;
+}
+
+img{
+    width: 180px;
+}
+
+h1{
+    text-align: center;
+    font-size: 34px;
+    color: rgb(35, 58, 72);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    font-size: 20px;
+    color: rgb(74, 67, 67);
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentacion h1{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(27, 52, 2);
+}
+.presentacion p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Delicious Handrawn', cursive;
+}
+#nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-image: linear-gradient(to right top, #255db1, #008dda, #00b6c7, #00d782, #a8eb12);
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    margin: 15px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img {
+    border-radius: 50%;
+}
+
+.caja p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+button {
+    background-color: rgb(35, 169, 231);
+    color: white;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+  }

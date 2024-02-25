@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="./main.js"></script>
+    <title>TACO LOCO</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./imagenes/logo.jpeg" alt="logo">
+        </div>
+        <nav>
+                <ul>
+                    <a href="http://Users/John/Documents/HTML/index.html"><li>HOME</li></a>
+                    <a href="#nosotros"><li>NOSOTROS</li></a>
+                    <a href="http://Users/John/Documents/HTML/index.html/reservaciones"><li>RESERVACIONES</li></a>
+                    <a href="http://Users/John/Documents/HTML/index.html/novedades"><li>NOVEDADES</li></a>
+                </ul>
+        </nav>
+    </header>
+    <div class="Presentación">
+        <h1>QUIÉNES SOMOS</h1>
+        <p>Somos un equipo de entusiastas de los tacos, dedicados a traerles los sabores auténticos y tradicionales de México. Nuestra pasión por los tacos nos ha llevado a explorar cada rincón de México en busca de los mejores ingredientes y recetas.
+
+            En *TacoLoco*, creemos que cada taco cuenta una historia, una historia de cultura, tradición y sabor. Nos esforzamos por compartir estas historias con ustedes a través de nuestros deliciosos tacos.
+            
+            Nuestro objetivo es proporcionar una experiencia culinaria inolvidable que celebre la rica diversidad de la cocina mexicana.  Tenemos algo para todos los amantes de los tacos.
+            
+            Así que únase a nosotros en esta deliciosa aventura y descubra el verdadero sabor de México en cada bocado. ¡Bienvenidos a *TacoLoco*!</p>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imagenes/4.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/2.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/mesero.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <div class="main">
+        <div class="caja"> 
+            <img src="./imagenes/tacos.jpg" alt="tacos">
+            <h1>TACOS</h1>
+            <button onclick="toggleText('contenido1')">"+ Info"</button>
+            <div id="contenido1" style="display: none;">
+            <!--contenido que quiero ocultar-->
+            <P>"¡Bienvenido a nuestro paraíso de tacos! Aquí, cada bocado es una celebración de la rica herencia culinaria de México. Nuestros tacos, hechos con los ingredientes más frescos y auténticos, son un testimonio de la tradición y el sabor. Desde el primer mordisco hasta el último, te prometemos una experiencia culinaria que deleitará tus sentidos y te hará volver por más."</P>
+            </div>
+        </div>
+
+        <div class="caja">
+            <img src="./imagenes/parrilla.jpg" alt="parrillada">
+            <h1>PARRILLADAS</h1>
+            <button onclick="toggleText('contenido2')">"+ Info"</button>
+            <div id="contenido2" style="display: none;">
+            <!--contenido que quiero ocultar-->
+            <p>¡Ven y descubre por qué nuestra parrillada es la sensación de la ciudad, y por qué somos el destino preferido para los amantes de la buena comida!
+            </p>
+            </div>
+        </div>
+
+        <div class="caja">
+            <img src="./imagenes/alitas.jpg" alt="alitas">
+            <h1>ALITAS</h1>
+            <button onclick="toggleText('contenido3')">"+ Info"</button>
+            <div id="contenido3" style="display: none;">
+            <!--contenido que quiero ocultar-->
+            <p>O si lo prefieres deleitarte con nuestras alitas, bañadas en nuestras salsas caseras y cocinadas a la perfección, son un viaje al corazón de la cocina de confort. Desde el crujido satisfactorio hasta el sabor picante, dulce o ahumado, te prometemos una experiencia culinaria que te hará regresar una y otra vez.¡Ven y no te arrepentiras.</p>
+            </div>
+        </div>
+    </div>
+        <div id="nosotros">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120448.20009989025!2d-99.24231637847477!3d19.368881916578324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff06e60d4e55%3A0x6d162cab6743b566!2sTacos%20Tony!5e0!3m2!1ses-419!2smx!4v1708396773656!5m2!1ses-419!2smx" width="680" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe width="680" height="315" src="https://www.youtube.com/embed/Tk8gHx8egfM?si=bVMYnOJb_4Cceosv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    <footer>
+        <p>Conoce nuestra politica de privacidad | ©2024 - Taco Loco México. * Todos los derechos reservados. *</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
